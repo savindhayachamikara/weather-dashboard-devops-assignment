@@ -1,0 +1,12 @@
+{
+    "name": "weather-dashboard-devops-assignment",
+    "version": "1.0.0",
+    "description": "Weather Dashboard for Advanced Git & DevOps Team Collaboration Assignment",
+    "private": true,
+    "scripts": {
+      "dev": "python3 -m http.server 5500 -d src",
+      "build": "mkdir -p dist && cp -R src/* dist/",
+      "lint": "node --check src/scripts/app.js",
+      "test": "node --check src/scripts/app.js"
+    }
+  }
